@@ -1,52 +1,55 @@
 # Computational text analysis for Spring 2019
 
+Workshop for UC Berkeley's D-Lab Computational text analysis. Laptop, Internet connection, and Zoom account required.
 
-## Overview
+# Workshop Goals 
 
-This workshop will equip newcowers with the foundation for applying computational text analysis methods in their work. The focus is on high-level descriptions of what existing methods do and user-friendly implementations. We will also spend some time on interpreting results correctly.
-
-## What you'll learn
 * what computational text analysis can do, and what it can't do
 * preprocessing text data
 * implementing simple unsupervised methods (tf-idf, topic model, cosine similarity) and supervised methods (classification with logistic regression) using a bag-of-word approach
 * interpreting results
 * if time permits, introduction to word vector representations
-
 * where to go next to learn and seek help with your computational text analysis projects
 
-## Prerequisites
 
-We will get our hands dirty implementing some of the methods. This will be in Python. If you would like to follow along with the implementation details, you will need some familiarity with Python. Completion of D-Lab's Python FUN!damentals workshop series is sufficient. If you haven't programmed in Python or at all, you are of course welcome to attend and learn the big ideas behind the methods.
+This will be in Python. If you would like to follow along with the implementation details, you will need some familiarity with Python. Completion of D-Lab's Python FUN!damentals workshop series is sufficient.
 
-## Getting started & software prerequisites
+# Installation Instructions
 
-#### Anaconda
 
-If you want to run the code on your computer, you have two options. Both involve installing (or making sure you have installed) Python 3 and some additional libraries. [Anaconda](https://www.anaconda.com/what-is-anaconda/) is a **free** product that makes the installation process easy. It bundles together the Python language and a whole bunch of additional packages that we often rely on in our workshops. This way, you only have to download and install one thing. To use this method, visit [this site](https://www.anaconda.com/download/) and follow the instructions for your operating system to download the Python 3.x version (it might be 3.6, or 3.7, or higher). **Please, please, please download the 3.x version, not the Python 2.x version**. You may have a choice between using the graphical installer or the command line installer. Use whichever you're comfortable with, but the graphical one is easier.
 
-#### For Pythonistas
+# Is [workshop] not working on your laptop?
 
-If you've been using Python for a while, you might not want to use Anaconda. First, make sure you have a Python 3.x version. Second, install Jupyter by following [these instructions](http://jupyter.org/install). Third, install the packages listed in the `requirements.txt` file of this repo. The easiest way to do this is:
 
-```
-pip3 install -r requirements.txt
-```
 
-## IOKN2K
+# Run the code!
 
-It's OK Not To Know! That's our motto at [D-Lab](http://dlab.berkeley.edu/). D-Lab is open to researchers and professionals from all disciplines and levels of experience.
 
-## Resources
+# How to get help?
 
+**FIND RESOURCES**
+
+
+# Resources
 * [CTAWG (Computational Text Analsysis Working Group) website](http://dlabctawg.github.io)
 * [Lectures from Stanford's NLP class](https://www.youtube.com/watch?v=nfoudtpBV68&list=PL6397E4B26D00A269)
 * [Info 256 - Applied NLP class by David Bamman](https://www.ischool.berkeley.edu/courses/info/256)
 
-## Contributing
+# About the UC Berkeley D-Lab
+D-Lab works with Berkeley faculty, research staff, and students to advance data-intensive social science and humanities research. Our goal at D-Lab is to provide practical training, staff support, resources, and space to enable you to use R for your own research applications. Our services cater to all skill levels and no programming, statistical, or computer science backgrounds are necessary. We offer these services in the form of workshops such as R Fundamentals, one-to-one consulting, and working groups that cover a variety of research topics, digital tools, and programming languages.  
 
-If you spot a problem with these materials, please make an issue describing the problem.
+Visit the [D-Lab homepage](http://dlab.berkeley.edu/) to learn more about us. View our [calendar](http://dlab.berkeley.edu/calendar-node-field-date) for upcoming events, and also learn about how to utilize our [consulting](http://dlab.berkeley.edu/consulting) and [data](http://dlab.berkeley.edu/data-resources) services. 
 
-## Acknowledgments
+IOKN2K! is an acronym and it stands for It’s OK Not To Know!  And like every other meme, it means more than its acronym. IOKN2K! means is that D-Lab is a place to feel comfortable asking questions; D-Lab is a place to learn the skills that you don’t have yet. Bring your wonder to D-Lab. IOKN2K!
+
+# Other Python workshops
+ 
+### Basic Competency
+
+### Intermediate/Advanced Competency
+
+
+## Contributors:  
 
 * [Ben Gebre-Medhin](http://gebre-medhin.com)
 * [Laura Nelson](http://www.lauraknelson.com)
@@ -54,6 +57,23 @@ If you spot a problem with these materials, please make an issue describing the 
 * [Geoff Bacon](http://linguistics.berkeley.edu/~bacon/)
 * [Caroline Le Pennec-Caldichoury](https://dlab.berkeley.edu/people/caroline-le-pennec)
 
-These materials have evolved over a number of years. They were first developed for the [D-Lab](http://dlab.berkeley.edu) by Laura Nelson & Teddy Roland, with contributions and revisions made by Ben Gebre-Medhin, Geoff Bacon and most recently updated by Caroline Le Pennec-Caldichoury.
+---
+<div style="display:inline-block;vertical-align:middle;">
+<a href="https://dlab.berkeley.edu/" target="_blank">
+<img src ="https://dlab.berkeley.edu/sites/default/files/logo.png" width="60" align="left" border=0 style="border:0; text-decoration:none; outline:none">
+</a>
+</div>
+<div style="display:inline-block;vertical-align:middle;align:left">
+    <div style="font-size:larger">D-Lab @ University of California - Berkeley
+    </br>
+    <a href="https://dlab.berkeley.edu" target="_blank">https://dlab.berkeley.edu</a>
+    </br>
+    &nbsp;
+    </div>
+</div>
 
-![dlab logo](assets/logo.png)
+
+
+
+
+
